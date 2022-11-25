@@ -4,9 +4,10 @@ justify-content: center;
 align-items: center;
 gap: 2.5em;
 flex-direction: column;
+background-image: url(https://unsplash.com/photos/U45J8RWFWvA);
 }
 button {
-    background-color: blue;
+    background-color:red;
     border: black;
     color:black;
     padding: 15px 32px;
@@ -68,3 +69,29 @@ button {
   }
 }
 
+.topnav {
+  background-color:black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
